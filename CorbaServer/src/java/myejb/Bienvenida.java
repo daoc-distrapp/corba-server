@@ -9,7 +9,7 @@ import javax.ejb.Stateless;
  * @author dordonez@ute.edu.ec
  */
 @Stateless
-@EJB(name = "java:global/Saludo", beanInterface = I_RemoteEjb.class)
+@EJB(name = "java:global/CorbaServer/Saludo", beanInterface = I_RemoteEjb.class)
 public class Bienvenida implements I_RemoteEjb {
 
     @Override
